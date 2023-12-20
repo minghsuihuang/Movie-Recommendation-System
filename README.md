@@ -34,4 +34,5 @@ In the application interface, you can:
 - Get movie recommendations based on your preferences.
 - View detailed information about the movies.
 
+```bash
 streamlit run WEB.py
