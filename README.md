@@ -17,7 +17,21 @@ First, ensure that the following Python libraries are installed in your environm
 
 If you have not installed these libraries yet, you can install them using the following command:
 
-```bash
-pip install pandas streamlit
-```bash
+### Data Preparation
+1. Ensure you have the `dataset.csv` file required for the project.
+2. Place the `dataset.csv` file in the root directory of the project.
+
+### Running the Web Application
+1. Open your terminal or command-line interface.
+2. Navigate to the directory containing `WEB.py`.
+3. Run the following command to start the `streamlit` web server:
+
+4. `streamlit` will automatically open the application interface in the default web browser, or you can manually open it in the browser using the address displayed in the terminal.
+
+### Using the Application
+In the application interface, you can:
+- Browse the list of movies.
+- Get movie recommendations based on your preferences.
+- View detailed information about the movies.
+
 streamlit run WEB.py
