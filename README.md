@@ -25,7 +25,9 @@ If you have not installed these libraries yet, you can install them using the fo
 1. Open your terminal or command-line interface.
 2. Navigate to the directory containing `WEB.py`.
 3. Run the following command to start the `streamlit` web server:
-
+```bash
+streamlit run WEB.py
+```
 4. `streamlit` will automatically open the application interface in the default web browser, or you can manually open it in the browser using the address displayed in the terminal.
 
 ### Using the Application
@@ -34,5 +36,4 @@ In the application interface, you can:
 - Get movie recommendations based on your preferences.
 - View detailed information about the movies.
 
-```bash
-streamlit run WEB.py
+
